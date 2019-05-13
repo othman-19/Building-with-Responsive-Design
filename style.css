@@ -26,21 +26,59 @@
   .second-container{
     grid-template-columns: auto auto auto;
     background: rgb(64, 252, 73);
+    height: 25em;
   }
 
+
   .big-2{
+    background-image: url(images/bitcoin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
     grid-row: 1/2;
     grid-column: 1/4;
   }
 
   .small-2{
+    background-image: url(images/charts.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     grid-row: 2/3;
     grid-column: 1/4;
   }
   .small-2-2{
+    background-image: url(images/phones.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     grid-row: 3/4;
     grid-column: 1/4;
   }
+
+  #small-title-h5{
+    font-size:0.8em;
+
+  }
+  #big-title{
+    font-size:2em;
+
+  }
+
+  .big-2 h5{
+    font-size:0.8em;
+  }
+  
+  .date-right{
+      float:right;
+  }
+  /* .date-right:after{
+    content: "";
+  display: table;
+  clear: both;
+
+} */
+
+
+
 
   @media  screen and (min-width:768px){
     .big-2{
