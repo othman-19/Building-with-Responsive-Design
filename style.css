@@ -27,17 +27,18 @@
   /* Second Container */
 
   .second-container{
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40% 33.33% ;
     background: rgb(64, 252, 73);
     height: 25em;
   }
 
 
   .big-2{
-    background-image: url(images/bitcoin.jpg);
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+   
+  
     grid-row: 1/2;
     grid-column: 1/4;
   }
@@ -62,10 +63,10 @@
 
   }
   #big-title{
-    font-size:2em;
-
+   
+    font-size:60px;
   }
-
+  
   .big-2 h5{
     font-size:0.8em;
   }
