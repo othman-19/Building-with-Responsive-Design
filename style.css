@@ -8,10 +8,35 @@
     box-sizing: border-box;
   }
 
-  /* font styling */
+/*header*/
+header{
+  padding:3em;
+  height: 5em;
+  background-color:yellow;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  
+}
+#header-logo{
+  height:100%;
+  
+}
+.fas.fa-search{
+  
+}
+.fas.fa-bars{
+ 
 
+}
 
-
+  .second-container{    
+    color:rgb(204, 233, 40);
+    
+  }
 
 
   .grid{
@@ -20,6 +45,8 @@
     background-color: rgb(165, 165, 165);
     padding: 2em;
     font-family: 'B612', sans-serif;
+    
+
   }
 
   .bkg-border{
@@ -36,7 +63,7 @@
     background-image: url(images/bitcoin.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-     padding: 0.8em;
+    padding: 0.8em;
   }
 
   .small-2{
