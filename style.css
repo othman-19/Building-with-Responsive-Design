@@ -319,7 +319,7 @@ header{
 
 .fourth-container h2{
 
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: 1.5em;
 
 }
@@ -404,6 +404,16 @@ display: none;
 .small-5{
   height: 40em;
   background: purple;
+  margin-bottom: 5%;
+
+}
+
+.small-5 h2{
+
+  font-size: 1.9em;
+  margin-bottom: 2%;
+  color: #ff4422;
+  font-weight: bold;
 
 }
 
@@ -424,11 +434,43 @@ display: none;
  background:#fff4f2;
 }
 
+.mid5-right{
+  width: 24%;
+  height: 100%;
+  background-image: url(images/laptop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size:100% 100%;
+  float: right;
+}
+
 .mid5-left{
-  width: 80%;
+  width: 76%;
   height: 100%;
   border: 1px solid black;
+  float: left;
 }
+
+.img5-up{
+  height: 62%;
+
+}
+
+.img5-down{
+
+  height: 38%;
+}
+
+.img5-down h2, p, h3{color: white;}
+
+.img5-down h2{font-size: 0.8em; margin-top: 4%; margin-left: 2%;}
+
+.img5-down p{font-size: 1.2em; margin-top: -1%; font-weight: bold; margin-left: 2%;}
+
+.img5-down h3{font-size: 0.5em; margin-top: 1%; margin-left: 2%;}
+
+
+
 
 .small-5-down li{
 
@@ -441,6 +483,23 @@ display: none;
 
 
 @media  screen and (min-width:768px){
+
+  .small-5-down{
+    height: 52%;
+  }
+
+  .small-5-up{
+
+    height: 48%;
+  }
+
+  .img5-down{position: relative;}
+
+  .img5-down h2{font-size: 0.8em; top:0%;position: absolute;}
+
+  .img5-down p{font-size: 1.1em; top:40%; left:0;font-weight: bold; margin-left: 2%; position: absolute;}
+
+  .img5-down h3{font-size: 0.5em; top:80%; left:0; position: absolute;}
 
   .fifth-container{
 
