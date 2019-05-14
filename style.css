@@ -27,40 +27,49 @@
   /* Second Container */
 
   .big-2{
+   
     background-image: url(images/bitcoin.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+     padding: 0.8em;
   }
 
   .small-2{
     background-image: url(images/charts.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+    padding: 0.8em;
   }
   .small-2-2{
     background-image: url(images/phones.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+    padding: 0.8em;
   }
+  
 
   #small-title-h5{
-    font-size:0.8em;
+    font-size:0.7em;
+    padding-bottom:0.5em;
 
   }
   #big-title{
    
-    font-size:4em;
+    font-size:1em;
     font-weight: bolder;
+    padding-bottom:0.5em;
   }
   
-  .big-2 h5{
-    font-size:0.8em;
+  .big-2-p{
+    font-size:0.7em;
+    
   }
+  
+ 
   
   .date-right{
       float:right;
+      font-size:0.5em;
   }
   /* .date-right:after{
     content: "";
@@ -75,8 +84,9 @@
   
   .second-container{
     grid-template-columns: 1fr 1fr 1fr ;
-
-    background: rgb(64, 252, 73);
+    height:40em;
+    
+    color:rgb(204, 233, 40);
     
   }
   .big-2{
@@ -92,8 +102,45 @@
     grid-area:2/3/3/4
     
   }
+
+  .date-right{
+      float:right;
+      font-size:1em;
+  }
+
+  #small-title-h5{
+    font-size:1em;
+    margin-bottom: 1em;
+    margin-top:15em;
+
+  }
+  #big-title{
+   
+    font-size:4em;
+    font-weight: bolder;
+    margin-bottom: 0.7em;
+  }
+  #small-2-big-title{
+ font-size:1.5em;
 }
 
+#small-2-h5{
+  margin-top: 5em;
+  margin-bottom: 2em;
+
+}
+#small-2-big-title{
+  font-size:1.5em;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+ }
+
+
+
+  
+  
+}
 
 
 
