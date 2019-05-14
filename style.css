@@ -8,6 +8,10 @@
     box-sizing: border-box;
   }
 
+  /* font styling */
+
+
+
 
 
   .grid{
@@ -15,6 +19,7 @@
     grid-gap: 0.5em;
     background-color: rgb(165, 165, 165);
     padding: 2em;
+    font-family: 'B612', sans-serif;
   }
 
   .bkg-border{
@@ -352,18 +357,12 @@ display: none;
 
 
 
-/* 5- style fifth container */7
+/* 5- style fifth container */
 
-.fifth-container{
-
-  height: 100em;
-  width: 20em;
-  background: #eff86e;
-  border: solid 1px black;
-}
 .small-5{
   height: 40em;
   background: purple;
+
 }
 
 .small-5-up{
@@ -394,7 +393,8 @@ display: none;
   margin-top: 2%;
   padding-bottom: 1%;
   border-bottom: 1px solid grey;
-
+  font-size: 0.85em;
+  overflow-wrap: break-word;
 }
 
 
@@ -459,4 +459,20 @@ display: none;
 
 
 
+  }
+
+
+  /* footer */
+
+  footer{
+
+    height: 15em;
+    background-color:#000000;
+
+  }
+
+  .social-media{
+
+    height: 9em;
+    background-color: #131313;
   }
