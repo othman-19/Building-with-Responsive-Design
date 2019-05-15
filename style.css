@@ -326,6 +326,13 @@ header{
 
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
 
+  .upper-text-3{
+
+    margin-left: 5%;
+
+  }
+
+
   .third-container{
     grid-template-columns: auto auto auto;
   
@@ -415,6 +422,8 @@ header{
 }
 
 @media  screen and (min-width:1024px){
+
+  .upper-text-3{ margin-left: 5%; }
 
   .third-container{
     grid-template-columns: auto auto auto auto;
@@ -511,6 +520,7 @@ header{
 
   font-size: 1.9em;
   font-weight: 1.5em;
+  color: #ff4422;
 
 }
 
@@ -540,12 +550,81 @@ header{
 display: none;
 }
 
+@media  screen and (min-width:768px) and (max-width: 1024px){
 
-@media  screen and (min-width:768px){
+
+  #li4{
+    display: inline-block;
+    margin: auto auto 3% 1%;
+    zoom:1;
+  
+
+  }
+
+  .list-4 li{
+      margin: 4% auto auto auto;
+      display: inline-block;
+      position: relative;
+      right: 2%;
+      border-right: 1px solid #ff4422;;
+      color: #ff4422;
+    
+  }
+  #mid-last-li4{
+    border: none;
+  }
+
+
+  .fourth-container{
+
+    grid-template-columns: auto auto auto;  }
 
   .upper-text-4{
-    border: 1px solid black;
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+  }
+  
+
+  .in4-1{
+    grid-row: 3/4;
+    grid-column: 1/2;
+
+  }
+
+  .in4-2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    
+  }
+
+  .in4-3{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    
+    
+  }
+
+  .in4-4{
+    grid-row: 3/4;
+    grid-column: 4/5;
+    display: none;
+    
+  }
+
+
+}
+
+
+@media  screen and (min-width:1024px){
+
+  .upper-text-4{
     width: 100%;
+  }
+
+  .upper-text-4 h2{
+    position: relative;
+    top: 20px;
   }
 
   .list-4 li{
@@ -554,7 +633,8 @@ display: none;
     zoom:1;
     float: right;
     padding-right: 1%;
-    border-right: 1px solid black;
+    border-right: 1px solid #ff4422;;
+    color: #ff4422;
   }
 
   #last-li4{
