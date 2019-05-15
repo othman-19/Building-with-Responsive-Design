@@ -19,8 +19,9 @@
 /*header*/
 header{
   height: 4em;
-  border:1px solid #ff4422;
+  border:3px solid #22d3ff;
   background: #ff4422;
+  margin-bottom: 1em;
 }
 #link-logo{
   height:70%;
@@ -49,7 +50,7 @@ header{
 .message-text{
   background-color:rgb(226, 226, 42);
   clear:both;
-  height:25%;
+  height:30%;
   text-align: start;
   
   font-size:0.8em;
@@ -128,24 +129,35 @@ header{
 
 @media  screen and (min-width:768px){
   /*header */
+  a{
+    text-decoration: none;
+    color:inherit;
+  }
+
+  /*nav bar above*/
   .navbar{
     width:100%;
-    display:inline-block;
     border:1px solid yellow;
-    height:auto;
+    height:5em;
   }
   .nav-1{
-    margin-bottom:1em;
+    height: 2em;
     background-color: #131313;
     width:100%;
   }
-  .nav-2{
-    margin-bottom:1em;
-  }
+  
   .nav-1-item{
     display: inline-block;
-    border:1px solid yellow;
+    margin:0 1.2em 0 1.2em;
+    
+    
   }
+  .nav-1-item a{
+    color:rgb(175, 171, 171); 
+  }
+
+  
+
   #link-logo{
     border:1px solid yellow;
     height: 100%;
@@ -156,6 +168,24 @@ header{
   #link-logo,.fas.fa-search,.fas.fa-bars{
     display: none;
   }
+
+  /*nav bar bellow*/
+  .nav-2{
+    height:3em;
+    background: #fff4f2;
+    margin-bottom:1em;
+    width:100%;
+  }
+  
+  .nav-2-item{
+    display: inline-block;
+    margin:0 1.2em 0 1.2em;
+    
+  }
+  .nav-2-item a{
+    color:rgb(26, 25, 25); 
+  }
+  
 
 
   
