@@ -436,19 +436,24 @@ display: none;
 
 @media  screen and (min-width:768px){
 
+  .upper-text-4{
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .list-4{
+    display: inline-block;
+    float: right;
+  }
+
   .fourth-container{
 
     grid-template-columns: auto auto auto auto;  }
 
-  .fourth-container h2{
+  .upper-text-4{
     grid-row: 1/2;
     grid-column: 1/5;
 
-  }
-
-  .fourth-container ul{
-    grid-row: 1/3;
-    grid-column: 4/5;
   }
   
 
@@ -485,7 +490,7 @@ display: none;
 
 .small-5{
   height: 40em;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 
 }
 
@@ -657,13 +662,37 @@ display: none;
 
   /* 6 - Sixth container   */
 
+  .titles-page{
+    font-size: 1.9em;
+    margin-bottom: 2%;
+    color: #ff4422;
+    font-weight: bold;
+    float: left;
+  }
+
   .small-6-right h2{ font-weight: bold; }
+
+  .upper-text-6{
+
+    display: inline-block;
+    padding: 1%;
+  }
 
   @media  screen and (max-width:767px){
 
+  .see-deals{
+
+    font-size: 0.9em;
+    color: #ff4422;
+    float: right;
+    padding-top: 2%;
+
+  }
+
+  .see-deals a{text-decoration: none; color: #ff4422;}
+
   .small-6{
     height: 8em;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -673,7 +702,6 @@ display: none;
   .small-6-left{
     width: 28%;
     height: 100%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -713,6 +741,21 @@ display: none;
 
   @media  screen and (min-width:768px){
 
+    .top-right-6img{
+
+      width: 0;
+      height: 0;
+      border-top: 100px solid rgb(255, 230, 0);
+      border-left: 100px solid transparent;
+      position: absolute;
+      top:0;
+      right: 0; 
+    }
+
+    .see-deals{
+      display: none;
+         }
+
     .small-6{
       height: 12em;
       width: 100%;
@@ -721,12 +764,27 @@ display: none;
     .small-6-left{
         width: 100%;
         height: 100%;
-        border: 1px solid black;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        overflow: hidden;}
+        overflow: hidden;
+        position: relative;
+
+        background-image: url(images/rubik.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+
+      
+      
+      }
+
+    .small-6-left img{
+
+      width: 100%;
+
+    }
 
 
      .small-6-right{
@@ -737,7 +795,6 @@ display: none;
       justify-content: center;
       padding: 6% 3% 5% 5%;
 
-      border: 1px solid black;
 
      }
 
@@ -758,21 +815,23 @@ display: none;
     .sixth-container{
       grid-template-columns: 1fr 1fr 1fr 1fr; }
 
-    .small6-1{grid-area: 1/1/2/2}
+    .sixth-container h2{grid-area: 1/1/2/2;}
 
-    .small6-2{grid-area: 1/2/2/3}
+    .small6-1{grid-area: 2/1/3/2}
 
-    .small6-3{grid-area: 1/3/2/4}
+    .small6-2{grid-area: 2/2/3/3}
 
-    .small6-4{grid-area: 1/4/2/5}
+    .small6-3{grid-area: 2/3/3/4}
 
-    .small6-5{grid-area: 2/1/3/2}
+    .small6-4{grid-area: 2/4/3/5}
 
-    .small6-6{grid-area: 2/2/3/3}
+    .small6-5{grid-area: 3/1/4/2}
 
-    .small6-7{grid-area: 2/3/3/4}
+    .small6-6{grid-area: 3/2/4/3}
 
-    .small6-8{grid-area: 2/4/3/5}
+    .small6-7{grid-area: 3/3/4/4}
+
+    .small6-8{grid-area: 3/4/4/5}
 
 
     }
