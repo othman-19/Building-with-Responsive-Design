@@ -20,7 +20,7 @@
 header{
   height: 4em;
   border:3px solid #22d3ff;
-  background: #ff4422;
+ 
   margin-bottom: 1em;
 }
 #link-logo{
@@ -50,16 +50,12 @@ header{
 .message-text{
   background-color:rgb(226, 226, 42);
   clear:both;
-  height:30%;
+  height:1.5em;
   text-align: start;
-  
   font-size:0.8em;
 }
 
-  .second-container{    
-    color:rgb(204, 233, 40);
-    
-  }
+  
 
 
   
@@ -69,9 +65,88 @@ header{
     border:1px solid red;
   }
 
+  @media  screen and (max-width:768px){
+    .navbar{display:none;}
+    }
 
+  
+  @media screen and (min-width:768px){
+    /*header */
+    
+  header{
+    height: 6em;
+   
+  }
+  a{
+    text-decoration: none;
+    color:inherit;
+  }
+
+  /*nav bar above*/
+  .navbar{
+    width:100%;
+    border:1px solid yellow;
+    height:5em;
+  }
+  .nav-1{
+    height: 2em;
+    background-color: #131313;
+    width:100%;
+  }
+  
+  .nav-1-item{
+    display: inline-block;
+    margin:0.5em 2em 0 1.8em;
+    
+    
+  }
+  .nav-1-item a{
+    color:rgb(175, 171, 171); 
+  }
+
+  
+
+  #link-logo{
+    border:1px solid yellow;
+    height: 100%;
+    position: absolute;
+
+  }
+  #header-logo{
+    border:1px solid yellow;
+  }
+  .fas.fa-search,.fas.fa-bars{
+    display: none;
+  }
+  
+  /*nav bar bellow*/
+  .nav-2{
+    height:3em;
+    background: #fff4f2;
+    margin-bottom:1em;
+    width:100%;
+  }
+  
+  .nav-2-item{
+    display: inline-block;
+    margin:1em 2em 0 1.8em;
+    
+  }
+  .nav-2-item a{
+    color:rgb(26, 25, 25); 
+  }
+  
+
+
+  
+  
+  }  
 
   /* Second Container */
+  .second-container{    
+    color:rgb(204, 233, 40);
+    
+  }
 
   .big-2{
    
@@ -128,66 +203,6 @@ header{
 
 
 @media  screen and (min-width:768px){
-  /*header */
-  a{
-    text-decoration: none;
-    color:inherit;
-  }
-
-  /*nav bar above*/
-  .navbar{
-    width:100%;
-    border:1px solid yellow;
-    height:5em;
-  }
-  .nav-1{
-    height: 2em;
-    background-color: #131313;
-    width:100%;
-  }
-  
-  .nav-1-item{
-    display: inline-block;
-    margin:0 1.2em 0 1.2em;
-    
-    
-  }
-  .nav-1-item a{
-    color:rgb(175, 171, 171); 
-  }
-
-  
-
-  #link-logo{
-    border:1px solid yellow;
-    height: 100%;
-  }
-  #header-logo{
-    border:1px solid yellow;
-  }
-  #link-logo,.fas.fa-search,.fas.fa-bars{
-    display: none;
-  }
-
-  /*nav bar bellow*/
-  .nav-2{
-    height:3em;
-    background: #fff4f2;
-    margin-bottom:1em;
-    width:100%;
-  }
-  
-  .nav-2-item{
-    display: inline-block;
-    margin:0 1.2em 0 1.2em;
-    
-  }
-  .nav-2-item a{
-    color:rgb(26, 25, 25); 
-  }
-  
-
-
   
   /*second container */
   .second-container{
@@ -822,7 +837,7 @@ display: none;
     background: #131313; 
   }
 
-  .fab, .fas{ 
+  .sm-icons{ 
     margin-top: 27%; 
     font-size: 1.2em;
     color: white;
