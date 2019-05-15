@@ -19,8 +19,6 @@
 /*header*/
 header{
   height: 4em;
-  border:3px solid #22d3ff;
- 
   margin-bottom: 1em;
 }
 #link-logo{
@@ -49,26 +47,19 @@ header{
 }
 
 .message-text{
-  background-color:rgb(226, 226, 42);
+  background-color:#ffdd33 ;
   clear:both;
+  padding:0.3em;
   height:1.5em;
   text-align: start;
   font-size:0.8em;
 }
 
-  
-
-
-  
-
-  .bkg-border{
-    background-color:gray;
-    border:1px solid red;
-  }
-
   @media  screen and (max-width:768px){
-    .navbar{display:none;}
+    .navbar{
+      display:none;
     }
+  }
 
   
   @media screen and (min-width:768px){
@@ -86,7 +77,6 @@ header{
   /*nav bar above*/
   .navbar{
     width:100%;
-    border:1px solid yellow;
     height:5em;
   }
   .nav-1{
@@ -98,30 +88,32 @@ header{
   .nav-1-item{
     display: inline-block;
     margin:0.5em 2em 0 1.8em;
-    
-    
   }
   .nav-1-item a{
     color:rgb(175, 171, 171); 
   }
 
-  
+  #icon-search{
+    margin:0;
+    display:inline-block;
+  }
+
+  #icon-item{
+    margin-left:30%;
+  }
 
   #link-logo{
-   
     width:90%;
     position: absolute;
     top:4em;
     left:5em;
-    
-
   }
+
   #header-logo{
     display:inline-block;
-   
     width:100%;
-
   }
+  
   .fas.fa-search,.fas.fa-bars{
     display: none;
   }
@@ -132,6 +124,8 @@ header{
     background: #fff4f2;
     margin-bottom:1em;
     width:100%;
+    font-family: 'Quicksand', sans-serif;
+
   }
   
   .nav-2-item{
@@ -151,26 +145,28 @@ header{
 
   /* Second Container */
   .second-container{    
-    color:rgb(204, 233, 40);
+    color:white;
     
   }
 
   .big-2{
-   
-    background-image: url(images/bitcoin.jpg);
+  
+    background-image : linear-gradient(to right, rgba(231, 79, 79, 0.466), rgba(255, 0, 0, 0.596)),url(images/bitcoin.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0.8em;
   }
 
   .small-2{
-    background-image: url(images/charts.jpeg);
+    background-image : linear-gradient(to right, rgba(231, 79, 79, 0.466), rgba(255, 0, 0, 0.596)),url(images/charts.jpeg);
+   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0.8em;
   }
   .small-2-2{
-    background-image: url(images/phones.jpg);
+    background-image : linear-gradient(to right, rgba(231, 79, 79, 0.466), rgba(255, 0, 0, 0.596)),url(images/phones.jpg);
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0.8em;
@@ -216,7 +212,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr ;
     height:40em;
     
-    color:rgb(204, 233, 40);
+    color:white;
     
   }
   .big-2{
