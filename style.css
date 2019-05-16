@@ -519,12 +519,13 @@ header{
   
   font-size:0.8em;
 }
-.list-4 li{
+.upper-div a{
   display: inline-block;
-      color: #ff4422;
-      margin:1% 0;
-      padding:0 1% 0 1%;
-      border-right:1px solid grey;
+  color: #ff4422;
+  padding:0% 1% 0 1%;
+  border-right:1px solid grey;
+  margin-top:1%;
+
 }
 
 .fourth-container h2{
@@ -597,17 +598,14 @@ display: none;
   }
   
 
-  #li4{
-    
-    margin: 1% 0 ;
-  }
-
-  .list-4 li{
+  .upper-div a{
     display: inline-block;
     color: #ff4422;
-    padding:0 1% 0 1%;
+    padding:0% 1% 0 1%;
     border-right:1px solid grey;
+    margin-top:1%;
   }
+
   #mid-last-li4{
     border-right:none;
   }
@@ -679,21 +677,19 @@ display: none;
     
     .upper-text-4{
       display:inline-block;
+      margin-right: 28%;
     }
 
-    #li4{
-      margin-left: 28%;
-      
-      display:inline;
-    }
 
-    .list-4 li{
-      display: inline-block;
+    .upper-div a{
+      float:right;
       color: #ff4422;
       padding:0 1% 0 1%;
+      margin-right: 1%;
       border-right:1px solid grey;
     }
-    #mid-last-li4{
+
+    #last-li4{
       border-right:none;
     }
   
