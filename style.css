@@ -772,7 +772,7 @@ display: none;
 /* 5- style fifth container */
 
 .small-5{
-  height: 40em;
+  height: 45em;
   margin-bottom: 10%;
 
 }
@@ -850,17 +850,24 @@ display: none;
 
 .img5-down h3{font-size: 0.5em; margin-top: 1%; margin-left: 2%;}
 
-.small-5-down li{
+.small-5-down ul{
 
+  list-style-image:url(images/bullet.svg) ;
+}
+
+.small-5-down li{
+  line-height: 1.3em;
+  margin-left:3%;
+  list-style-position: outside;
   margin-top: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
   border-bottom: 1px solid  #eeeeee;
   font-size: 0.85em;
   overflow-wrap: break-word;
   color: #555555;
 }
 
-.small-5-down li::before {content: "•"; color: #ff4422; padding: 2%; }
+
 
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
 
