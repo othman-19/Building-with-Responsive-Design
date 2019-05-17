@@ -772,8 +772,9 @@ display: none;
 /* 5- style fifth container */
 
 .small-5{
-  height: 45em;
+  height: 48em;
   margin-bottom: 10%;
+  
 
 }
 
@@ -867,6 +868,14 @@ display: none;
   color: #555555;
 }
 
+@media  screen and (max-width: 768px){
+.small-5{
+  height: 40em;
+
+  margin-bottom: 10%;
+  margin-top: 30%;
+
+}}
 
 
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
