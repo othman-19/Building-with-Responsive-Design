@@ -775,14 +775,8 @@ display: none;
 /* 5- style fifth container */
 
 .small-5{
-<<<<<<< HEAD
   height: 50em;
-=======
-  height: 48em;
->>>>>>> e06f4710f3350d965ee199e25e8f10c0168a18ef
   margin-bottom: 10%;
-  
-
 }
 
 .small-5 h2{
@@ -1152,7 +1146,7 @@ display: none;
       justify-content: center;
       overflow: hidden;
       position: relative;
-      background-image: no-repeat center/100% 100% url(images/rubik.png);
+      background: no-repeat center/100% 100% url(images/rubik.png);
     }
 
   .small-6-left img{
@@ -1316,7 +1310,6 @@ display: none;
   .social-media{  
     display: flex;
     flex-direction: column;
-    overflow-wrap: wrap;
     height: 9em;
     background-color: #131313;
   }
