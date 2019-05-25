@@ -3,10 +3,10 @@ Project: Building with Responsive Design
 
 Authors:
 
-Othmane Naamani 
+Othmane Naamani -
 github: @othman-19
 
-Samuel García 
+Samuel García -
 github: @samgaco
 
 Description:
